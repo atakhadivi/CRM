@@ -25,12 +25,12 @@
 
 ## Admin interfaces
 
-- [ ] Companies admin
-  - [ ] List, add, edit companies
-  - [ ] Contact inline to add/edit contacts
-- [ ] Contacts admin
-  - [ ] List, add, edit contacts
-- [ ] Categories admin
+- [x] Companies admin
+  - [x] List, add, edit companies
+  - [x] Contact inline to add/edit contacts
+- [x] Contacts admin
+  - [x] List, add, edit contacts
+- [x] Categories admin
 
 ## Authentication
 
