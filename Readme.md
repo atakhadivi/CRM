@@ -8,8 +8,8 @@
 - [x] Install apps
   - [x] Rest framework
   - [x] Auth
-- [ ] Set up virtual env
-- [ ] Initialize git repo
+- [x] Set up virtual env
+- [x] Initialize git repo
 
 ## Models
 
