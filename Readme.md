@@ -16,10 +16,10 @@
 - [x] Company
   - [x] Name, description fields
   - [x] Category foreign key
-- [ ] Contact
-  - [ ] First name, last name
-  - [ ] Email, phone
-  - [ ] Company foreign key
+- [x] Contact
+  - [x] First name, last name
+  - [x] Email, phone
+  - [x] Company foreign key
 - [ ] Category
   - [ ] Name field
 
