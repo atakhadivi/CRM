@@ -13,9 +13,9 @@
 
 ## Models
 
-- [ ] Company
-  - [ ] Name, description fields
-  - [ ] Category foreign key
+- [x] Company
+  - [x] Name, description fields
+  - [x] Category foreign key
 - [ ] Contact
   - [ ] First name, last name
   - [ ] Email, phone
