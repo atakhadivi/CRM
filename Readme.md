@@ -5,9 +5,9 @@
 - [x] Create Django project
 - [x] Configure settings
   - [x] Database, static files, media files, templates
-- [ ] Install apps
-  - [ ] Rest framework
-  - [ ] Auth
+- [x] Install apps
+  - [x] Rest framework
+  - [x] Auth
 - [ ] Set up virtual env
 - [ ] Initialize git repo
 
