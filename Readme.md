@@ -1,13 +1,13 @@
 # CRM System Roadmap
 
-## Set up project 
+## Set up project
 
 - [ ] Create Django project
 - [ ] Configure settings
   - [ ] Database, static files, media files, templates
 - [ ] Install apps
   - [ ] Rest framework
-  - [ ] Auth  
+  - [ ] Auth
 - [ ] Set up virtual env
 - [ ] Initialize git repo
 
@@ -22,7 +22,6 @@
   - [ ] Company foreign key
 - [ ] Category
   - [ ] Name field
-  
 
 ## Admin interfaces
 
@@ -38,7 +37,7 @@
 - [ ] CustomUser model
 - [ ] Register view
 - [ ] Login view
-- [ ] Logout view  
+- [ ] Logout view
 - [ ] Limit views by permissions
 
 ## Company pages
@@ -48,17 +47,17 @@
   - [ ] Summary
   - [ ] Contact table
   - [ ] Follow-ups
-  
+
 ## Contact pages
 
 - [ ] Contact profile page
 
-## Follow-ups  
+## Follow-ups
 
 - [ ] FollowUp model
   - [ ] Company/Contact foreign key
   - [ ] Date, notes fields
-- [ ] Add follow-ups in admin and company page  
+- [ ] Add follow-ups in admin and company page
 - [ ] Mark follow-ups complete
 - [ ] List overdue follow-ups
 
@@ -66,14 +65,14 @@
 
 - [ ] Company report
   - [ ] Categories, names, contacts
-- [ ] Contacts report 
+- [ ] Contacts report
 - [ ] Overdue follow-ups report
 
 ## API
 
 - [ ] Company serializer
 - [ ] Contact serializer
-- [ ] FollowUp serializer  
+- [ ] FollowUp serializer
 - [ ] Company, Contact, FollowUp viewsets
 
 ## Frontend
@@ -82,8 +81,8 @@
   - [ ] Components
   - [ ] Fetch data from API
   - [ ] Views for companies, contacts
-  
-## Deployment   
+
+## Deployment
 
 - [ ] PostgreSQL database
 - [ ] Gunicorn + Nginx
