@@ -20,8 +20,8 @@
   - [x] First name, last name
   - [x] Email, phone
   - [x] Company foreign key
-- [ ] Category
-  - [ ] Name field
+- [x] Category
+  - [x] Name field
 
 ## Admin interfaces
 
