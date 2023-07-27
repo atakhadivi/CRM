@@ -2,7 +2,7 @@
 
 ## Set up project
 
-- [ ] Create Django project
+- [x] Create Django project
 - [ ] Configure settings
   - [ ] Database, static files, media files, templates
 - [ ] Install apps
