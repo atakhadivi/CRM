@@ -3,8 +3,8 @@
 ## Set up project
 
 - [x] Create Django project
-- [ ] Configure settings
-  - [ ] Database, static files, media files, templates
+- [x] Configure settings
+  - [x] Database, static files, media files, templates
 - [ ] Install apps
   - [ ] Rest framework
   - [ ] Auth
