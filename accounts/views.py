@@ -1,18 +1,13 @@
-from .forms import SignUpForm
-from django.contrib.auth.mixins import LoginRequiredMixin
+from .forms import RegistrationForm
 
-class Dashboard(LoginRequiredMixin, ListView):
-    pass
-
-
-def signup(request):
+def register(request):
     if request.method == 'POST':
-        form = SignUpForm(request.POST)
+        form = RegistrationForm(request.POST)
         if form.is_valid():
             user = form.save()
-            # log user in
+            # Log user in and redirect to homepage
             return redirect('home')
     else:
-        form = SignUpForm()
-    
-    return render(request, 'registration/signup.html', {'form': form})
+        form = RegistrationForm()
+        
+    return render(request, 'registration/register.html', {'form': form})
