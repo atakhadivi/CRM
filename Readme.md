@@ -34,7 +34,7 @@
 
 ## Authentication
 
-- [ ] CustomUser model
+- [x] CustomUser model
 - [ ] Register view
 - [ ] Login view
 - [ ] Logout view

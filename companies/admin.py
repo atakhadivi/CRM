@@ -1,8 +1,6 @@
 from django.contrib import admin
 from .models import Company, Contact, Category
 
-admin.site.register(Company)
-admin.site.register(Contact)
 
 class ContactInline(admin.TabularInline):
     model = Contact
