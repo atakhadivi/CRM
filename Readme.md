@@ -37,7 +37,7 @@
 - [x] CustomUser model
 - [x] Register view
 - [x] Login view
-- [ ] Logout view
+- [x] Logout view
 - [ ] Limit views by permissions
 
 ## Company pages

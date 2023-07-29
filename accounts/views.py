@@ -1,6 +1,8 @@
 from .forms import RegistrationForm
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
+from django.contrib.auth import logout
+from django.contrib.auth.views import LoginView
 
 def register(request):
     if request.method == 'POST':
@@ -27,3 +29,9 @@ def login_view(request):
         # else:
         #     # Return error message
     return render(request, 'accounts/login.html')
+
+
+
+def logout_view(request):
+  logout(request)
+  return redirect('login')
