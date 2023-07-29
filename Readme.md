@@ -36,7 +36,7 @@
 
 - [x] CustomUser model
 - [x] Register view
-- [ ] Login view
+- [x] Login view
 - [ ] Logout view
 - [ ] Limit views by permissions
 

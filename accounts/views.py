@@ -1,4 +1,6 @@
 from .forms import RegistrationForm
+from django.contrib.auth import authenticate, login
+from django.shortcuts import render, redirect
 
 def register(request):
     if request.method == 'POST':
@@ -10,4 +12,18 @@ def register(request):
     else:
         form = RegistrationForm()
         
-    return render(request, 'registration/register.html', {'form': form})
+    return render(request, 'accounts/register.html', {'form': form})
+
+
+
+def login_view(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return redirect('home')
+        # else:
+        #     # Return error message
+    return render(request, 'accounts/login.html')
