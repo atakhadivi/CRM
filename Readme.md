@@ -38,7 +38,7 @@
 - [x] Register view
 - [x] Login view
 - [x] Logout view
-- [ ] Limit views by permissions
+- [x] Limit views by permissions
 
 ## Company pages
 
