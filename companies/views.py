@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView
-from .models import Company
+from .models import Company, Contact
 from django.views.generic import DetailView
 
 # Create your views here.
@@ -22,3 +22,8 @@ class CompanyDetailView(DetailView):
         context['contacts'] = self.object.get_contacts()
         context['followups'] = self.object.followup_set.all()
         return context
+
+
+class ContactDetailView(DetailView):
+    model = Contact
+    template_name = 'contacts/contact_detail.html'

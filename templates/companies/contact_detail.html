@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>{{ contact.full_name }}</h1>
+
+<p>
+  <strong>Email:</strong> {{ contact.email }}<br />
+  <strong>Phone:</strong> {{ contact.phone }}
+</p>
+
+<!-- Additional contact details -->
+
+{% endblock %}

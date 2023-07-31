@@ -50,7 +50,7 @@
 
 ## Contact pages
 
-- [ ] Contact profile page
+- [x] Contact profile page
 
 ## Follow-ups
 
