@@ -43,7 +43,7 @@
 ## Company pages
 
 - [x] Company list view
-- [ ] Company detail view
+- [x] Company detail view
   - [x] Summary
   - [x] Contact table
   - [x] Follow-ups
