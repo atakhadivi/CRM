@@ -46,7 +46,7 @@
 - [ ] Company detail view
   - [x] Summary
   - [x] Contact table
-  - [ ] Follow-ups
+  - [x] Follow-ups
 
 ## Contact pages
 

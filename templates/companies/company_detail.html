@@ -21,4 +21,11 @@
   {% endfor %}
 </table>
 
-{% endblock %}
+{% for followup in followups %}
+
+<div class="follow-up">
+  <div class="date">{{ followup.date }}</div>
+  <div class="notes">{{ followup.notes }}</div>
+</div>
+
+{% endfor %} {% endblock %}
