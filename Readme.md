@@ -42,7 +42,7 @@
 
 ## Company pages
 
-- [ ] Company list view
+- [x] Company list view
 - [ ] Company detail view
   - [ ] Summary
   - [ ] Contact table

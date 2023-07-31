@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>Companies</h1>
+
+<ul>
+  {% for company in companies %}
+  <li>
+    <a href="{{ company.get_absolute_url }}">{{ company.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
