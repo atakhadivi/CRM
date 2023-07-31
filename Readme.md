@@ -44,7 +44,7 @@
 
 - [x] Company list view
 - [ ] Company detail view
-  - [ ] Summary
+  - [x] Summary
   - [ ] Contact table
   - [ ] Follow-ups
 
