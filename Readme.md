@@ -58,7 +58,7 @@
   - [x] Company/Contact foreign key
   - [x] Date, notes fields
 - [x] Add follow-ups in admin and company page
-- [ ] Mark follow-ups complete
+- [x] Mark follow-ups complete
 - [ ] List overdue follow-ups
 
 ## Reporting

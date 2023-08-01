@@ -27,3 +27,9 @@ class CompanyDetailView(DetailView):
 class ContactDetailView(DetailView):
     model = Contact
     template_name = 'contacts/contact_detail.html'
+
+
+def complete_followup(request, pk):
+    followup = get_object_or_404(FollowUp, pk=pk)
+    followup.completed = True
+    followup.save()
