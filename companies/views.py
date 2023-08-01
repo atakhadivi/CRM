@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.views.generic import ListView
-from .models import Company, Contact
+from .models import Company, Contact, FollowUp
 from django.views.generic import DetailView
+from django.utils import timezone
 
 # Create your views here.
 
@@ -33,3 +34,12 @@ def complete_followup(request, pk):
     followup = get_object_or_404(FollowUp, pk=pk)
     followup.completed = True
     followup.save()
+
+
+class OverdueFollowUpsView(ListView):
+
+    model = FollowUp
+
+    def get_queryset(self):
+        now = timezone.now().date()
+        return super().get_queryset().filter(date__lt=now)

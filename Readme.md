@@ -59,7 +59,7 @@
   - [x] Date, notes fields
 - [x] Add follow-ups in admin and company page
 - [x] Mark follow-ups complete
-- [ ] List overdue follow-ups
+- [x] List overdue follow-ups
 
 ## Reporting
 

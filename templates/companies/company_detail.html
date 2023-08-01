@@ -21,11 +21,12 @@
   {% endfor %}
 </table>
 
-{% for followup in followups %}
+{% for followup in object_list %}
 
-<div class="follow-up">
-  <div class="date">{{ followup.date }}</div>
-  <div class="notes">{{ followup.notes }}</div>
-</div>
+<p>{{ followup.date }} - {{ followup.notes }}</p>
 
-{% endfor %} {% endblock %}
+{% empty %}
+
+<p>No overdue follow-ups found.</p>
+
+{% endfor %} {% endfor %} {% endblock %}
