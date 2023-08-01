@@ -57,7 +57,7 @@
 - [x] FollowUp model
   - [x] Company/Contact foreign key
   - [x] Date, notes fields
-- [ ] Add follow-ups in admin and company page
+- [x] Add follow-ups in admin and company page
 - [ ] Mark follow-ups complete
 - [ ] List overdue follow-ups
 
