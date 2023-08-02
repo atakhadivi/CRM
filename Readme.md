@@ -70,7 +70,7 @@
 
 ## API
 
-- [ ] Company serializer
+- [x] Company serializer
 - [ ] Contact serializer
 - [ ] FollowUp serializer
 - [ ] Company, Contact, FollowUp viewsets
