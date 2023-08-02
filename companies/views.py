@@ -66,3 +66,13 @@ class ContactReport(ListView):
 
     def get_queryset(self):
         return super().get_queryset().order_by('company__name', 'last_name')
+
+
+class OverdueFollowUpsReport(ListView):
+
+    model = FollowUp
+    template_name = 'reports/overdue_followups.html'
+
+    def get_queryset(self):
+        now = timezone.now().date()
+        return super().get_queryset().filter(date__lt=now)

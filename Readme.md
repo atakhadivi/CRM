@@ -66,7 +66,7 @@
 - [x] Company report
   - [x] Categories, names, contacts
 - [x] Contacts report
-- [ ] Overdue follow-ups report
+- [x] Overdue follow-ups report
 
 ## API
 
