@@ -71,8 +71,8 @@
 ## API
 
 - [x] Company serializer
-- [ ] Contact serializer
-- [ ] FollowUp serializer
+- [x] Contact serializer
+- [x] FollowUp serializer
 - [ ] Company, Contact, FollowUp viewsets
 
 ## Frontend
