@@ -63,8 +63,8 @@
 
 ## Reporting
 
-- [ ] Company report
-  - [ ] Categories, names, contacts
+- [x] Company report
+  - [x] Categories, names, contacts
 - [ ] Contacts report
 - [ ] Overdue follow-ups report
 

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import ListView
+from django.views.generic import ListView, TemplateView
 from .models import Company, Contact, FollowUp
 from django.views.generic import DetailView
 from django.utils import timezone
@@ -43,3 +43,17 @@ class OverdueFollowUpsView(ListView):
     def get_queryset(self):
         now = timezone.now().date()
         return super().get_queryset().filter(date__lt=now)
+
+
+class CompanyReport(TemplateView):
+
+    template_name = 'reports/company_report.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        companies = Company.objects.annotate(
+            num_contacts=Count('contact')
+        ).order_by('category__name', 'name')
+
+        context['companies'] = companies
+        return context

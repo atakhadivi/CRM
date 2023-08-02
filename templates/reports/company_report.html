@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block content %} {% for company in companies %}
+
+<h3>{{ company.category }}</h3>
+
+<p>{{ company.name }} ({{ company.num_contacts }} contacts)</p>
+
+<ul>
+  {% for contact in company.get_contacts %}
+  <li>{{ contact.name }}</li>
+  {% endfor %}
+</ul>
+
+{% endfor %} {% endblock %}
