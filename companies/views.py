@@ -57,3 +57,12 @@ class CompanyReport(TemplateView):
 
         context['companies'] = companies
         return context
+
+
+class ContactReport(ListView):
+
+    model = Contact
+    template_name = 'reports/contacts_report.html'
+
+    def get_queryset(self):
+        return super().get_queryset().order_by('company__name', 'last_name')

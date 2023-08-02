@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content %} {% for contact in object_list %}
+{% ifchanged %}
+<h3>{{ contact.company.name }}</h3>
+{% endifchanged %}
+
+<p>{{ contact.first_name }} {{ contact.last_name }} - {{ contact.email }}</p>
+
+{% endfor %} {% endblock %}
