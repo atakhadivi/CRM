@@ -73,7 +73,7 @@
 - [x] Company serializer
 - [x] Contact serializer
 - [x] FollowUp serializer
-- [ ] Company, Contact, FollowUp viewsets
+- [x] Company, Contact, FollowUp viewsets
 
 ## Frontend
 

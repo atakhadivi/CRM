@@ -1,3 +1,5 @@
+from CRM.serializers import CompanySerializer, ContactSerializer, FollowUpSerializer
+from rest_framework import viewsets
 from django.shortcuts import render
 from django.views.generic import ListView, TemplateView
 from .models import Company, Contact, FollowUp
@@ -76,3 +78,18 @@ class OverdueFollowUpsReport(ListView):
     def get_queryset(self):
         now = timezone.now().date()
         return super().get_queryset().filter(date__lt=now)
+
+
+class CompanyViewSet(viewsets.ModelViewSet):
+    queryset = Company.objects.all()
+    serializer_class = CompanySerializer
+
+
+class ContactViewSet(viewsets.ModelViewSet):
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer
+
+
+class FollowUpViewSet(viewsets.ModelViewSet):
+    queryset = FollowUp.objects.all()
+    serializer_class = FollowUpSerializer

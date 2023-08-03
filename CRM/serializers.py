@@ -1,9 +1,7 @@
 # serializers.py
 
-from followups.models import FollowUp
-from companies.models import Contact
 from rest_framework import serializers
-from companies.models import Company
+from companies.models import Company, FollowUp, Contact
 
 
 class CompanySerializer(serializers.ModelSerializer):
