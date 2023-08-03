@@ -78,7 +78,7 @@
 ## Frontend
 
 - [x] React app
-  - [ ] Components
+  - [x] Components
   - [ ] Fetch data from API
   - [ ] Views for companies, contacts
 
