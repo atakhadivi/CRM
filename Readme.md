@@ -80,7 +80,7 @@
 
 ## Views
 
-- [ ] Home view
+- [x] Home view
 - [ ] Company list view
 - [ ] Company detail view
 - [ ] Contact detail view

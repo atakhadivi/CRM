@@ -5,8 +5,18 @@ from django.views.generic import ListView, TemplateView
 from .models import Company, Contact, FollowUp
 from django.views.generic import DetailView
 from django.utils import timezone
+from django.views.generic import TemplateView
 
 # Create your views here.
+
+
+class HomeView(TemplateView):
+    template_name = "companies/home.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        # Add any additional context data here
+        return context
 
 
 class CompanyListView(ListView):
