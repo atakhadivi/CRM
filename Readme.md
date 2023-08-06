@@ -76,7 +76,7 @@
 - [x] Company detail
 - [x] Contact detail
 - [x] Registration
-- [ ] Login
+- [x] Login
 
 ## Views
 
