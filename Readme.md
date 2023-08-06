@@ -81,7 +81,7 @@
 ## Views
 
 - [x] Home view
-- [ ] Company list view
+- [x] Company list view
 - [ ] Company detail view
 - [ ] Contact detail view
 - [ ] Registration view
