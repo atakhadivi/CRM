@@ -68,19 +68,41 @@
 - [x] Contacts report
 - [x] Overdue follow-ups report
 
+## Templates
+
+- [ ] Base template
+- [ ] Homepage
+- [ ] Company list
+- [ ] Company detail
+- [ ] Contact detail
+- [ ] Registration
+- [ ] Login
+
+## Views
+
+- [ ] Home view
+- [ ] Company list view
+- [ ] Company detail view
+- [ ] Contact detail view
+- [ ] Registration view
+- [ ] Login view
+
+## URLs
+
+- [ ] Home
+- [ ] Companies
+- [ ] Company detail
+- [ ] Contacts
+- [ ] Login
+- [ ] Logout
+- [ ] Register
+
 ## API
 
 - [x] Company serializer
 - [x] Contact serializer
 - [x] FollowUp serializer
 - [x] Company, Contact, FollowUp viewsets
-
-## Frontend
-
-- [x] React app
-  - [x] Components
-  - [ ] Fetch data from API
-  - [ ] Views for companies, contacts
 
 ## Deployment
 
