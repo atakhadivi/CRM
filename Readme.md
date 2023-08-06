@@ -75,7 +75,7 @@
 - [x] Company list
 - [x] Company detail
 - [x] Contact detail
-- [ ] Registration
+- [x] Registration
 - [ ] Login
 
 ## Views
