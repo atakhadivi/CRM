@@ -73,7 +73,7 @@
 - [x] Base template
 - [x] Homepage
 - [x] Company list
-- [ ] Company detail
+- [x] Company detail
 - [ ] Contact detail
 - [ ] Registration
 - [ ] Login
