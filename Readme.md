@@ -70,7 +70,7 @@
 
 ## Templates
 
-- [ ] Base template
+- [x] Base template
 - [ ] Homepage
 - [ ] Company list
 - [ ] Company detail
