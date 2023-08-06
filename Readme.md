@@ -71,7 +71,7 @@
 ## Templates
 
 - [x] Base template
-- [ ] Homepage
+- [x] Homepage
 - [ ] Company list
 - [ ] Company detail
 - [ ] Contact detail
