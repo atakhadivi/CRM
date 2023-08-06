@@ -84,18 +84,18 @@
 - [x] Company list view
 - [x] Company detail view
 - [x] Contact detail view
-- [ ] Registration view
-- [ ] Login view
+- [x] Registration view
+- [x] Login view
 
 ## URLs
 
-- [ ] Home
-- [ ] Companies
-- [ ] Company detail
-- [ ] Contacts
-- [ ] Login
-- [ ] Logout
-- [ ] Register
+- [x] Home
+- [x] Companies
+- [x] Company detail
+- [x] Contacts
+- [x] Login
+- [x] Logout
+- [x] Register
 
 ## API
 
