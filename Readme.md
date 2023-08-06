@@ -82,7 +82,7 @@
 
 - [x] Home view
 - [x] Company list view
-- [ ] Company detail view
+- [x] Company detail view
 - [ ] Contact detail view
 - [ ] Registration view
 - [ ] Login view

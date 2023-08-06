@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
 from accounts.views import register, login_view, logout_view
-from companies.views import CompanyListView, ContactDetailView, HomeView
+from companies.views import CompanyListView, ContactDetailView, HomeView, CompanyDetailView
 
 
 urlpatterns = [
@@ -27,5 +27,6 @@ urlpatterns = [
     path('logout/', logout_view, name='logout'),
     path('register/', register, name='register'),
     path('companies/', CompanyListView.as_view(), name='company-list'),
+    path('companies/<int:pk>/', CompanyDetailView.as_view(), name='company-detail'),
     path('contacts/<int:pk>/', ContactDetailView.as_view(), name='contact-detail'),
 ]
