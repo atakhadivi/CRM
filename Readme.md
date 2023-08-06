@@ -74,7 +74,7 @@
 - [x] Homepage
 - [x] Company list
 - [x] Company detail
-- [ ] Contact detail
+- [x] Contact detail
 - [ ] Registration
 - [ ] Login
 

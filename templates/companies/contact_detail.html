@@ -1,4 +1,5 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} {% block title %}{{ contact.full_name }}{% endblock %}
+{% block content %}
 
 <h1>{{ contact.full_name }}</h1>
 
@@ -7,6 +8,13 @@
   <strong>Phone:</strong> {{ contact.phone }}
 </p>
 
-<!-- Additional contact details -->
+<p>
+  <strong>Company:</strong>
+  <a href="{{ contact.company.get_absolute_url }}">
+    {{ contact.company.name }}
+  </a>
+</p>
+
+<a href="{% url 'contact-list' %}">Back to Contacts</a>
 
 {% endblock %}
