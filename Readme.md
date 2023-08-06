@@ -83,7 +83,7 @@
 - [x] Home view
 - [x] Company list view
 - [x] Company detail view
-- [ ] Contact detail view
+- [x] Contact detail view
 - [ ] Registration view
 - [ ] Login view
 
