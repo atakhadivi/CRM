@@ -17,11 +17,11 @@ class Company(models.Model):
     category = models.ForeignKey(
         Category, on_delete=models.SET_NULL, null=True)
 
-    address = models.CharField(max_length=100)
-    phone = models.CharField(max_length=20)
-    website = models.URLField()
-    products = models.TextField()
-    linkedin_url = models.URLField()
+    address = models.CharField(max_length=100, default='Not Found')
+    phone = models.CharField(max_length=20, default='Not Found')
+    website = models.URLField(default='Not Found')
+    products = models.TextField(default='Not Found')
+    linkedin_url = models.URLField(default='Not Found')
 
     def get_contacts(self):
         return self.contact_set.all()
