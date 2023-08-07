@@ -11,10 +11,17 @@ class Category(models.Model):
 
 
 class Company(models.Model):
+
     name = models.CharField(max_length=100)
     description = models.TextField()
     category = models.ForeignKey(
         Category, on_delete=models.SET_NULL, null=True)
+
+    address = models.CharField(max_length=100)
+    phone = models.CharField(max_length=20)
+    website = models.URLField()
+    products = models.TextField()
+    linkedin_url = models.URLField()
 
     def get_contacts(self):
         return self.contact_set.all()
